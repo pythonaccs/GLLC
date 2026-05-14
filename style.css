@@ -435,7 +435,7 @@ footer {
   border-bottom-color: #2f6b1f;
   background: #f9fff4;
 }
-body::after {
+.body::after {
   content: "dtb.extraxtz";
 
   position: fixed;
