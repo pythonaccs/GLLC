@@ -435,36 +435,3 @@ footer {
   border-bottom-color: #2f6b1f;
   background: #f9fff4;
 }
-/* WATERMARK */
-
-.watermark {
-  position: fixed;
-  bottom: 12px;
-  right: 14px;
-
-  background: rgba(23, 59, 18, 0.75);
-  color: rgba(255, 255, 255, 0.85);
-
-  padding: 6px 10px;
-  border-radius: 20px;
-
-  font-size: 0.72rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-
-  z-index: 999999;
-
-  pointer-events: none;
-  user-select: none;
-
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-}
-
-@media (max-width: 700px) {
-  .watermark {
-    font-size: 0.62rem;
-    bottom: 8px;
-    right: 8px;
-    padding: 5px 8px;
-  }
-}
