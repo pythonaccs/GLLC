@@ -277,3 +277,159 @@ footer {
     padding: 90px 5% 80px;
   }
 }
+/* ==================== QUOTE PAGE STYLES ==================== */
+
+.quote-header {
+  background: linear-gradient(rgba(18, 70, 18, 0.85), rgba(8, 40, 8, 0.92)),
+              url("https://images.unsplash.com/photo-1599685315640-7a45f7a2b52a?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;
+  color: white;
+  padding: 120px 8% 100px;
+  text-align: center;
+}
+
+.quote-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.4rem;
+  margin-bottom: 15px;
+}
+
+.quote-title p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Quote Page Container */
+.quote-page {
+  padding: 40px 8% 80px;
+  background: #f8f9f4;
+}
+
+/* Quote Card */
+.quote-card {
+  max-width: 720px;
+  margin: -80px auto 60px;
+  background: white;
+  padding: 50px 40px;
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.quote-card h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  color: #2f6b1f;
+  margin-bottom: 10px;
+}
+
+.quote-subtext {
+  color: #4c5c45;
+  margin-bottom: 35px;
+  font-size: 1.1rem;
+}
+
+/* Form */
+.quote-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #b7d7a8;
+  border-radius: 16px;
+  font-size: 1.05rem;
+  transition: all 0.3s;
+}
+
+.quote-form input:focus,
+.quote-form select:focus,
+.quote-form textarea:focus {
+  border-color: #5cb85c;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(92, 184, 92, 0.15);
+}
+
+.quote-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.quote-form button {
+  background: #2f6b1f;
+  color: white;
+  padding: 18px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.4s;
+}
+
+.quote-form button:hover {
+  background: #5cb85c;
+  transform: translateY(-3px);
+}
+
+/* Contact Info */
+.contact-info {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info h2 {
+  color: #2f6b1f;
+  margin-bottom: 15px;
+}
+
+.contact-box {
+  background: white;
+  padding: 35px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+.contact-box p {
+  margin: 14px 0;
+  font-size: 1.1rem;
+}
+
+.contact-box a {
+  color: #2f6b1f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Adjustments for Quote Page */
+@media (max-width: 768px) {
+  .quote-header {
+    padding: 100px 5% 80px;
+  }
+  
+  .quote-title h1 {
+    font-size: 2.6rem;
+  }
+  
+  .quote-card {
+    margin: -60px 10px 40px;
+    padding: 35px 25px;
+  }
+  
+  .quote-page {
+    padding: 20px 5% 60px;
+  }
+}
